@@ -30,7 +30,7 @@ Min:
 [![YouTubeVideo](https://img.youtube.com/vi/M5Se5fqgxkE/0.jpg)](https://www.youtube.com/watch?v=M5Se5fqgxkE)
 
 # Installation
-[Python Part](#Step-1)
-[Binary part](#Step-2)
+[Python Part](#step-1)
+[Binary part](#step-2)
 
 #Step 1
