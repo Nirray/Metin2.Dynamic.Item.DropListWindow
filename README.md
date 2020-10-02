@@ -17,7 +17,7 @@ Pros:
 Min:
 * You still need to be close to the item to pick it up — but it's probably fair.
 
-# Gif
+# Presentation
 >(may be displayed once)
 
 [![1](http://nirray.bplaced.net/Download/Github/m2/1.gif)](http://nirray.bplaced.net/Download/Github/m2/1.gif)
