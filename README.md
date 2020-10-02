@@ -288,7 +288,7 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 # PythonTextTail
 [Go back to installation list :arrow_up:](#installation)
 
-9. Open **PythonTextTail.cpp.cpp** inside *UserInterface* directory:
+9. Open **PythonTextTail.cpp** inside *UserInterface* directory:
 
 #### Search:
 ```cpp
