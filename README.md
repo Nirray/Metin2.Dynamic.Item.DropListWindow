@@ -25,7 +25,7 @@ Min:
 [![2](http://nirray.bplaced.net/Download/Github/m2/2.gif)](http://nirray.bplaced.net/Download/Github/m2/2.gif)
 
 
->YouTube video explanation :
+>YouTube video explanation (click on image):
 
 [![YouTubeVideo](https://img.youtube.com/vi/M5Se5fqgxkE/0.jpg)](https://www.youtube.com/watch?v=M5Se5fqgxkE)
 
@@ -38,10 +38,13 @@ Min:
 * [C++ locale_inc.h](#locale_inc)
 * [C++ PythonPlayer](#pythonplayer)
 * [C++ PythonTextTail](#pythontexttail)
+
 ##### Client part
 # uiDropList
+[Go back to installation list :arrow_up:](#installation)
 1. Place **uidroplist.py** inside *root* directory.
 # ConstInfo
+[Go back to installation list :arrow_up:](#installation)
 2. Open **constInfo.py** inside *root* directory:
 #### Search:
 ```python
@@ -86,6 +89,7 @@ def RemoveFromDropList(vid):
 			DROP_LIST_REFRESH = 1
 ```
 # Game
+[Go back to installation list :arrow_up:](#installation)
 3. Open **game.py** inside *root* directory:
 
 #### Search:
@@ -144,13 +148,16 @@ import uidroplist
 ```
 
 # DropListWindow
+[Go back to installation list :arrow_up:](#installation)
 4. Place **droplistwindow.py** inside *uiscript* directory.
 
 # Locale
+[Go back to installation list :arrow_up:](#installation)
 5. Paste the relevant entries in **locale_interface.txt** and **locale_game.txt** inside *locale* directory.
 
 ##### Binary part
 # Locale_inc
+[Go back to installation list :arrow_up:](#installation)
 6. Open **locale_inc.h** inside *UserInterface* directory:
 
 #### Add:
@@ -159,6 +166,7 @@ import uidroplist
 ```
 
 # PythonPlayer
+[Go back to installation list :arrow_up:](#installation)
 7. Open **PythonPlayer.h** inside *UserInterface* directory:
 #### Search:
 ```cpp
@@ -271,6 +279,7 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 ```
 
 # PythonTextTail
+[Go back to installation list :arrow_up:](#installation)
 9. Open **PythonTextTail.cpp.cpp** inside *UserInterface* directory:
 
 #### Search:
