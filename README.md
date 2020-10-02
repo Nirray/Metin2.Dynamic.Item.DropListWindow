@@ -29,7 +29,6 @@ Min:
 [![YouTubeVideo](https://img.youtube.com/vi/M5Se5fqgxkE/0.jpg)](https://www.youtube.com/watch?v=M5Se5fqgxkE)
 
 # Installation
-List of edits:
 * [Python uidroplist.py](#uidroplist)
 * [Python constInfo.py](#constInfo)
 * [Python game.py](#game)
@@ -137,3 +136,9 @@ import uidroplist
 	def RemoveVidFromList(self, vid):
 		constInfo.RemoveFromDropList(int(vid))
 ```
+
+# droplistwindow
+4. Place **droplistwindow.py** inside *uiscript* directory.
+
+# locale
+5. Paste the relevant entries in **locale_interface.txt** and **locale_game.txt** inside *locale/codepage/*
