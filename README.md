@@ -9,13 +9,17 @@ Pros:
 * You don't have to worry about items gained by other players;
 * The alphabetical list will allow you to easily find the acquired item;
 * The dynamic list cleans and completes itself on a regular basis;
+* You can still pick up items directly from the floor;
+* You can show and hide the window whenever you want to use it;
+* If the item isn't yours then your player name in ownership color will be red instead of yellow;
 * You do not have to worry that your list will be flooded with items that have been lying on the ground for a long time — only the items you have acquired will go to the list;
 * You can double-click on the name of the item and the character will automatically move towards it with the intention of picking up;
 * You can refresh the list by yourself;
 * You can select an item from the list and pick it up from the ground with one button.
 
 Min:
-* You still need to be close to the item to pick it up — but it's probably fair.
+* You still need to be close to the item to pick it up — but it's probably fair;
+* Sometime you must click twice on item name because of too far distance (by default).
 
 # Presentation
 >(may be displayed once)
