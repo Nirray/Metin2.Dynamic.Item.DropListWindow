@@ -33,7 +33,7 @@ Min:
 * [Python constInfo.py](#constInfo)
 * [Python game.py](#game)
 * [Python droplistwindow](#droplistwindow)
-* [Client locale_*](#locale)
+* [locale_game.txt and locale_interface.txt](#locale)
 ##### Client part
 # uiDropList
 1. Place **uidroplist.py** inside *root* directory.
@@ -144,3 +144,10 @@ import uidroplist
 
 # Locale
 5. Paste the relevant entries in **locale_interface.txt** and **locale_game.txt** inside *locale/codepage/*
+
+# Locale_inc
+6. Open **locale_inc.h** inside *\UserInterface\* directory:
+#### Add:
+```cpp
+#define ENABLE_DROPLIST_WINDOW
+```
