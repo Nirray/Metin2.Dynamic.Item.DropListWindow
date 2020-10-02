@@ -7,16 +7,17 @@ With my solution, your players don't have to worry about it anymore.
 
 # As a player
 Pros:
-* You don't have to worry about items gained by other players
-* The alphabetical list will allow you to easily find the acquired item
-* The dynamic list cleans and completes itself on a regular basis
-* You do not have to worry that your list will be flooded with items that have been lying on the ground for a long time — only the items you have acquired will go to the list
-* You can double-click on the name of the item and the character will automatically move towards it with the intention of picking up
-* You can refresh the list by yourself
-* You can select an item from the list and pick it up from the ground with one button
-#real-cool-heading
+* You don't have to worry about items gained by other players;
+* The alphabetical list will allow you to easily find the acquired item;
+* The dynamic list cleans and completes itself on a regular basis;
+* You do not have to worry that your list will be flooded with items that have been lying on the ground for a long time — only the items you have acquired will go to the list;
+* You can double-click on the name of the item and the character will automatically move towards it with the intention of picking up;
+* You can refresh the list by yourself;
+* You can select an item from the list and pick it up from the ground with one button.
+
 Min:
 * You still need to be close to the item to pick it up — but it's probably fair.
+
 # Gif
 >(may be displayed once)
 
@@ -36,7 +37,7 @@ Min:
 * [locale_game.txt and locale_interface.txt](#locale)
 * [C++ locale_inc.h](#locale_inc)
 * [C++ PythonPlayer](#pythonplayer)
-
+* [C++ PythonTextTail](#pythontexttail)
 ##### Client part
 # uiDropList
 1. Place **uidroplist.py** inside *root* directory.
@@ -270,6 +271,8 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 ```
 
 # PythonTextTail
+9. Open **PythonTextTail.cpp.cpp** inside *UserInterface* directory:
+
 #### Search:
 ```cpp
 void CPythonTextTail::DeleteItemTextTail(DWORD VirtualID)
