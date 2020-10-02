@@ -32,10 +32,12 @@ Min:
 * [Python uidroplist.py](#uidroplist)
 * [Python constInfo.py](#constInfo)
 * [Python game.py](#game)
+* [Python droplistwindow](#droplistwindow)
+* [Client locale_*](#locale)
 ##### Client part
-# uidroplist
+# uiDropList
 1. Place **uidroplist.py** inside *root* directory.
-# constInfo
+# ConstInfo
 2. Open **constInfo.py** inside *root* directory:
 #### Search:
 ```python
@@ -79,7 +81,7 @@ def RemoveFromDropList(vid):
 			OWN_ITEM_VID.remove(vid)
 			DROP_LIST_REFRESH = 1
 ```
-# game
+# Game
 3. Open **game.py** inside *root* directory:
 
 #### Search:
@@ -137,8 +139,8 @@ import uidroplist
 		constInfo.RemoveFromDropList(int(vid))
 ```
 
-# droplistwindow
+# DropListWindow
 4. Place **droplistwindow.py** inside *uiscript* directory.
 
-# locale
+# Locale
 5. Paste the relevant entries in **locale_interface.txt** and **locale_game.txt** inside *locale/codepage/*
