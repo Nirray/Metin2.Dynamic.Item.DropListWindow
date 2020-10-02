@@ -1,7 +1,7 @@
 # Metin2 Dynamic Item DropList Window
 What is going on?
 Whenever I was playing on any server that had far too many drop items from monsters — I wondered — how am I going to find myself in this pile of scrap?
-
+#Step 1
 You click on one item and pick up a completely different one, thus littering your inventory.
 
 With my solution, your players don't have to worry about it anymore.
@@ -33,4 +33,4 @@ Min:
 [Python Part](#step-1)
 [Binary part](#step-2)
 
-#Step 1
+
