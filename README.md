@@ -268,3 +268,7 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 }
 #endif
 ```
+
+# PythonTextTail
+Important :exclamation:
+If you're using xP3NG3Rx **[C++] ItemName reneval on the ground** from [here](https://metin2.dev/board/topic/17399-c-itemname-reneval-on-the-ground/)
