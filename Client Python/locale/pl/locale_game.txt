@@ -1,0 +1,1 @@
+DROP_LIST_EMPTY_SELECT	Musisz wybraæ przedmiot z listy

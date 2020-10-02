@@ -1,0 +1,2 @@
+DROP_LIST_TITLE	Zdobyte Przedmioty
+DROP_LIST_PICKUP	Podnieœ
