@@ -30,8 +30,9 @@ Min:
 
 # Installation
 List of edits:
-- [x] [Client Python uidroplist.py](#uidroplist)
-- [x] [Client Python constInfo.py](#constInfo)
+- [x] [Python uidroplist.py](#uidroplist)
+- [x] [Python constInfo.py](#constInfo)
+- [x] [Python game.py](#game)
 ##### Client part
 # uidroplist
 1. Place **uidroplist.py** inside *root* directory.
@@ -79,7 +80,7 @@ def RemoveFromDropList(vid):
 			OWN_ITEM_VID.remove(vid)
 			DROP_LIST_REFRESH = 1
 ```
-
+# game
 3. Open **game.py** inside *root* directory:
 
 #### Search:
