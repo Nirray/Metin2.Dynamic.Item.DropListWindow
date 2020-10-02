@@ -35,6 +35,8 @@ Min:
 * [Python droplistwindow](#droplistwindow)
 * [locale_game.txt and locale_interface.txt](#locale)
 * [C++ locale_inc.h](#locale_inc)
+* [C++ PythonPlayer](#pythonplayer)
+
 ##### Client part
 # uiDropList
 1. Place **uidroplist.py** inside *root* directory.
