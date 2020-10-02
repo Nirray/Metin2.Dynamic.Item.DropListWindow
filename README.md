@@ -1,5 +1,4 @@
 # Metin2 Dynamic Item DropList Window
-What is going on?
 Whenever I was playing on any server that had far too many drop items from monsters — I wondered — how am I going to find myself in this pile of scrap?
 You click on one item and pick up a completely different one, thus littering your inventory.
 
