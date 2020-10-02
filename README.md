@@ -30,9 +30,9 @@ Min:
 
 # Installation
 List of edits:
-- [x] [Python uidroplist.py](#uidroplist)
-- [x] [Python constInfo.py](#constInfo)
-- [x] [Python game.py](#game)
+* [Python uidroplist.py](#uidroplist)
+* [Python constInfo.py](#constInfo)
+* [Python game.py](#game)
 ##### Client part
 # uidroplist
 1. Place **uidroplist.py** inside *root* directory.
