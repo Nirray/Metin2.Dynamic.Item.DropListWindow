@@ -30,15 +30,18 @@ Min:
 
 # Installation
 List of edits:
-
+[Client Python uidroplist.py](#uidroplist)
+[Client Python constInfo.py](#constInfo)
 ##### Client part
+# uidroplist
 1. Place **uidroplist.py** inside *root* directory.
+# constInfo
 2. Open **constInfo.py** inside *root* directory:
-### Search:
+#### Search:
 ```python
 PVPMODE_PROTECTED_LEVEL = 15
 ```
-### Add below:
+#### Add below:
 ```python
 DROPLIST_VID_AND_ITEM_NAME = {}
 OWN_ITEM_VID = []
@@ -47,13 +50,13 @@ DROP_LIST_LAST = ""
 DROP_LIST_DOUBLE = 0
 DROP_LIST_SLIDER = 0
 ```
-### Search def
+#### Search def:
 ```python
 def SET_TWO_HANDED_WEAPON_ATT_SPEED_DECREASE_VALUE():
 	global TWO_HANDED_WEAPON_ATT_SPEED_DECREASE_VALUE
 	app.SetTwoHandedWeaponAttSpeedDecreaseValue(TWO_HANDED_WEAPON_ATT_SPEED_DECREASE_VALUE)
 ```
-### Add below
+#### Add below:
 ```python
 def DropListAppend(vid, item_name):
 	global DROPLIST_VID_AND_ITEM_NAME
@@ -79,45 +82,45 @@ def RemoveFromDropList(vid):
 
 3. Open **game.py** inside *root* directory:
 
-### Search:
+#### Search:
 ```python
 import interfaceModule
 ```
 
-### Add below:
+#### Add below:
 ```python
 import uidroplist
 ```
-### Search:
+#### Search:
 ```python
 	self.quickSlotPageIndex = 0
 ```
-### Add below:
+#### Add below:
 ```python
 	self.dropListDlg = 0
 ```
 
-### Search:
+#### Search:
 ```python
 	def __BuildKeyDict(self):
 ```
-### Below:
+#### Below:
 ```python
 	onPressKeyDict[app.DIK_F4]	= lambda : self.__PressQuickSlot(7)
 ```
-### Add:
+#### Add:
 ```python
 	onPressKeyDict[app.DIK_F5]	= lambda : self.ScanDropList()
 ```
-### ~ You can change Key DIK if you want to
+>You can change Key DIK if you want to
 
-### Search:
+#### Search:
 ```python
 	def StopRight(self):
 		player.SetSingleDIKKeyState(app.DIK_RIGHT, False)
 ```
 
-### Add below:
+#### Add below:
 ```python
 	def ScanDropList(self):
 		if not self.dropListDlg:
