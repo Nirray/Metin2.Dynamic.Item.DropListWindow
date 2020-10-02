@@ -146,12 +146,40 @@ import uidroplist
 # Locale
 5. Paste the relevant entries in **locale_interface.txt** and **locale_game.txt** inside *locale/codepage/*
 
+##### Binary part
 # Locale_inc
-6. Open **locale_inc.h** inside *\UserInterface\* directory:
+6. Open **locale_inc.h** inside *UserInterface* directory:
 
 #### Add:
 ```cpp
 #define ENABLE_DROPLIST_WINDOW
 ```
 
+# PythonPlayer
+7. Open **PythonPlayer.h** inside *UserInterface* directory:
+#### Search:
+```cpp
+	void	SendClickItemPacket(DWORD dwIID);
+```
+
+#### Add below:
+```cpp
+#ifdef ENABLE_DROPLIST_WINDOW
+	void	SendClickItemPacketDropList(DWORD dwIID);
+#endif
+```
+
+#### Search:
+```cpp
+		void	ClearSkillDict();
+```
+
+#### Add below:
+```cpp
+#ifdef ENABLE_DROPLIST_WINDOW
+		void	DropListAppend(DWORD VID, string Item_Name);
+		void	DropListOwn(DWORD VID);
+		void	RemoveFromOwnList(DWORD VID);
+#endif
+```
 
