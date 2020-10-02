@@ -292,7 +292,7 @@ void CPythonTextTail::DeleteItemTextTail(DWORD VirtualID)
 If you're using *xP3NG3Rx* **[C++] ItemName reneval on the ground** from [metin2dev](https://metin2.dev/board/topic/17399-c-itemname-reneval-on-the-ground/) - then [use this part](#pythontexttail-with-attr).
 
 If not use part below:
-# Default PythonTextTail
+# Default RegisterItemTextTail
 #### Search:
 ```cpp
 void CPythonTextTail::SetItemTextTailOwner(DWORD dwVID, const char * c_szName)
@@ -358,8 +358,8 @@ void CPythonTextTail::SetItemTextTailOwner(DWORD dwVID, const char * c_szName)
 ```
 
 
-# PythonTextTail with attr
-:exclamation: Use only with *xP3NG3Rx* **[C++] ItemName reneval on the ground** :exclamation: if not - use **PythonTextTail** from [above](#default-pythontexttail).
+# RegisterItemTextTail with attr
+:exclamation: Use only with *xP3NG3Rx* **[C++] ItemName reneval on the ground** :exclamation: if not - use **RegisterItemTextTail** from [above](#default-pythontexttail).
 
 #### Search:
 ```cpp
