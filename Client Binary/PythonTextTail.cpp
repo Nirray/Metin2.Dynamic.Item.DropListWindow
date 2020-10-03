@@ -105,9 +105,11 @@ void CPythonTextTail::DeleteItemTextTail(DWORD VirtualID)
 #endif
 
 // Search:
-void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner)
-// And under:
-	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position, c_TextTail_Item_Color);
+void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner
+// In xP3NG3Rx [C++] ItemName reneval on the ground RegisterItemTextTail ends with bool bHasAttr
+//And under:
+	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position,
+// In xP3NG3Rx [C++] ItemName reneval on the ground pTextTail = RegisterTextTail ends with c_d3dColor
 // Add:
 #ifdef ENABLE_DROPLIST_WINDOW
 	CPythonPlayer::Instance().DropListAppend(VirtualID, c_szText);
