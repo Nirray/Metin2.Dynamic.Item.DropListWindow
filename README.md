@@ -297,12 +297,12 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 ```cpp
 void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner
 ```
-> * In xP3NG3Rx [C++] ItemName reneval on the ground it ends with **bool bHasAttr**
+> In xP3NG3Rx [C++] ItemName reneval on the ground **RegisterItemTextTail** ends with **bool bHasAttr**
 #### And under:
 ```cpp
 	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position,
 ```
-> * In xP3NG3Rx [C++] ItemName reneval on the ground it ends with **c_d3dColor**
+> In xP3NG3Rx [C++] ItemName reneval on the ground **pTextTail = RegisterTextTail** ends with **c_d3dColor**
 #### Add:
 ```cpp
 #ifdef ENABLE_DROPLIST_WINDOW
