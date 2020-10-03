@@ -293,6 +293,19 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 [Go back to installation list :arrow_up:](#installation)
 
 9. Open **PythonTextTail.cpp** inside *UserInterface* directory:
+#### Search:
+```cpp
+void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner)
+```
+#### And under:
+```cpp
+TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position, c_TextTail_Item_Color);
+```
+
+#### Add:
+```cpp
+CPythonPlayer::Instance().DropListAppend(VirtualID, c_szText);
+```
 
 #### Search:
 ```cpp
