@@ -102,3 +102,10 @@ void CPythonTextTail::DeleteItemTextTail(DWORD VirtualID)
 #ifdef ENABLE_DROPLIST_WINDOW
 	CPythonPlayer::Instance().RemoveFromOwnList(VirtualID);
 #endif
+
+// Search:
+void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner)
+// And under:
+	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position, c_TextTail_Item_Color);
+// Add:
+	CPythonPlayer::Instance().DropListAppend(VirtualID, c_szText);
