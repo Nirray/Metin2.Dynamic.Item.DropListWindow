@@ -109,4 +109,6 @@ void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szTex
 // And under:
 	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position, c_TextTail_Item_Color);
 // Add:
+#ifdef ENABLE_DROPLIST_WINDOW
 	CPythonPlayer::Instance().DropListAppend(VirtualID, c_szText);
+#endif
