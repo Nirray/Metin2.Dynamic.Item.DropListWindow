@@ -94,6 +94,7 @@ void CPythonTextTail::SetItemTextTailOwner(DWORD dwVID, const char * c_szName)
 	}
 }
 
+// Next step
 // Search:
 void CPythonTextTail::DeleteItemTextTail(DWORD VirtualID)
 // And under:
