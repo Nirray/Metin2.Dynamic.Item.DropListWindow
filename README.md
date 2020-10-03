@@ -295,13 +295,14 @@ void CPythonPlayer::SendClickItemPacketDropList(DWORD dwIID)
 9. Open **PythonTextTail.cpp** inside *UserInterface* directory:
 #### Search:
 ```cpp
-void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner)
+void CPythonTextTail::RegisterItemTextTail(DWORD VirtualID, const char * c_szText, CGraphicObjectInstance * pOwner
 ```
+> * In xP3NG3Rx [C++] ItemName reneval on the ground it ends with **bool bHasAttr**
 #### And under:
 ```cpp
-	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position, c_TextTail_Item_Color);
+	TTextTail * pTextTail = RegisterTextTail(VirtualID, c_szText, pOwner, c_TextTail_Name_Position,
 ```
-
+> * In xP3NG3Rx [C++] ItemName reneval on the ground it ends with **c_d3dColor**
 #### Add:
 ```cpp
 #ifdef ENABLE_DROPLIST_WINDOW
