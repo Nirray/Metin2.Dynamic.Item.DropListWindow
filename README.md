@@ -22,12 +22,6 @@ Min:
 * Sometime you must click twice on item name because of too far distance (by default).
 
 # Presentation
->(may be displayed once)
-
-[![1](http://nirray.bplaced.net/Download/Github/m2/1.gif)](http://nirray.bplaced.net/Download/Github/m2/1.gif)
-[![2](http://nirray.bplaced.net/Download/Github/m2/2.gif)](http://nirray.bplaced.net/Download/Github/m2/2.gif)
-
-[![dropimage](http://nirray.bplaced.net/Download/Github/m2/image.jpg)](http://nirray.bplaced.net/Download/Github/m2/image.PNG)
 
 >YouTube video explanation (click on image):
 
